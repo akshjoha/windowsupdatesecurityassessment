@@ -36,10 +36,15 @@ Scrape user feedback for relevant KB articles.
 Perform sentiment analysis on the scraped data.
 Generate an HTML report (kb_report.html) in the root directory.
 
+# Dataset 
+2016.csv, 2017.csv, 2018.csv ,2019.csv, 2020.csv, 2021.csv, 2022.csv, 2023.csv, 2024.csv (Datas retrieved from MSRC)
+Reviews.csv ( https://1drv.ms/u/s!Av6Nb3WDureSgbNRQpu-KW11dQXG6A?e=1yGc5c )- Taken from Kaggle!
+
+
 # Directory Structure
 plaintext
 ├── combined_csv.csv              # CSV containing KB articles
-├── kb_analysis_tool.py           # Main Python script
+├── Fullcode.py                   # Main Python script
 ├── vulnerability_model.pkl       # Model for vulnerability prediction
 ├── logistic_regression_model.pkl # Model for sentiment analysis
 ├── tfidf_vectorizer.pkl          # TF-IDF vectorizer for text processing
